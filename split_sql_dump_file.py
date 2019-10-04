@@ -1,4 +1,4 @@
-import sys, re, os, linecache
+import sys, re, os
 
 if sys.version_info[0] < 3:
 	raise Exception("""Must be using Python 3.  Try running "C:\\Program Files (x86)\\Python37-32\\python.exe" split_sql_dump_file.py""")
